@@ -1,0 +1,64 @@
+Step 1: Type mkdir sunday
+ 
+Step 2: Type cd sunday
+ 
+Step 3: Type touch index.html
+ 
+Step 4: Type notepad index.html
+ 
+Step 5: After this command notepad will be open then paste this html code into the notepad
+ 
+
+HTML CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My sunday Website</title>
+</head>
+<body>
+    <h1>Hello shaik sumiya</h1>
+    <h2>Hurriah! it's a weekend</h2>
+    <h3>uff it's a weekdays</h3>
+    <p>This is a simple website served using Docker and Nginx.</p>
+</body>
+</html>
+Step 6: save the file in notepad as “index.html” and close the notepad window
+
+Step 7: Type touch dockerfile
+ 
+Step 8: Type notepad dockerfile
+ 
+Step 9: After this command notepad will be open then paste this html code into the notepad
+ 
+DOCKERFILE:
+# Use the official Nginx image from Docker Hub
+FROM nginx:alpine
+
+# Copy the index.html file into the Nginx default public directory
+COPY index.html /usr/share/nginx/html/
+
+# Expose port 80 to allow external access to the website
+EXPOSE 80
+
+# Run Nginx in the foreground (default command for the Nginx container)
+CMD ["nginx", "-g", "daemon off;"]
+
+Step 9: save the file in notepad as “dockerfile” and close the notepad window
+Step 10: Type docker build -t Sunday .
+ 
+Step 11: Type docker run -d -p 8080:80 sunday
+ 
+Step 12: Type docker ps
+ 
+
+
+
+Step 13: After completing these 12 steps open the docker software.
+The docker frontpage be like this
+ 
+Step 14: “ http://localhost:8080 “ copy this ipe address and paste in the google chrome
+Step 15: The output will be shown like this
+ 
+Therefore, The docker experiment done sucessfully
