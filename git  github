@@ -1,0 +1,60 @@
+1. Open Git Bash. 
+2. Navigate to the extracted folder: 
+GIT bash 
+cd /c/git-workshop-template 
+3. Initialize the folder as a Git repository: 
+bash 
+git init 
+Step 3: Set Up Git User Configuration 
+1. Set your username: 
+bash 
+git config --global user.name "Your Name" 
+2. Set your email: 
+bash 
+git config --global user.email "your-email@example.com" 
+Step 4: Connect to GitHub 
+1. Create a new repository on GitHub (e.g., git-workshop). 
+2. Add the GitHub repository as the remote: 
+bash 
+git remote add origin https://github.com/your-username/git-workshop.git 
+Step 5: Commit Initial Changes 
+1. Add all files to Git tracking: 
+bash 
+git add . 
+2. Commit the changes: 
+bash 
+git commit -m "Initial commit with workshop template" 
+Step 6: Push to GitHub 
+Push the repository to the GitHub remote: 
+bash 
+git branch -M main 
+git push -u origin main 
+Step 7: Use the Template for Tasks 
+Scenario 1: Creating a Branch for a Task 
+1. Create a new branch for a specific task (e.g., Task 1): 
+bash 
+git checkout -b feature/task1 
+2. Make the necessary changes (e.g., fixing bugs or adding content). 
+3. Add, commit, and push the changes: 
+bash 
+git add . 
+git commit -m "Fix divide-by-zero bug" 
+git push origin feature/task1 
+Scenario 2: Submitting a Pull Request 
+1. Go to the GitHub repository page. 
+2. Create a Pull Request for the feature/task1 branch into the main branch. 
+3. Wait for a team member to review and merge the PR. 
+Scenario 3: Sync Changes 
+1. If changes are made in the main branch, sync them with your local repository: 
+bash 
+git pull origin main 
+Common Git Commands 
+• Check the status of your repository: 
+bash 
+git status 
+• View commit history: 
+bash 
+git log --oneline 
+• Switch between branches: 
+bash 
+git checkout branch-name
