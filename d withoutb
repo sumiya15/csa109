@@ -1,0 +1,30 @@
+C:\Users\sumiy\Documents\Custon Office Templates rename dockerfile.txt dockerfile
+
+C:\Users\sumiy\Documents\Custon Office Templates docker build -t python313-uu
+108%
+
+C:\Users\suniy\Documents\Custon Office Templates docker run "docker run" requires at least 1 argument. See 'docker run -help'.
+
+Usage: docker run [OPTIONS] IRAGE [CORNAND] [ARG...]
+
+Create and run a new container from an image
+
+C:\Users\sumiy\Documents\Custon Office Templates docker Login Authenticating with existing credentials...
+
+Login Succeeded
+
+>C:\Users\sumiy\Documents\Custon Office Templates>docker tag python313-sumiya15/python313-m "docker tag" requires exactly 2 arguments. See 'docker tag -help'.
+
+Usage: docker tag SOURCE IMAGE[TAG] TARGET_IMAGE[:TAG]
+
+Create a tag TARGET IMAGE that refers to SOURCE IMAGE
+
+3
+
+C:\Users\sumiy\Documents\Custon Office Templates docker push sumiya15/python313-uu Using default tag: latest The push refers to repository [docker.io/sumiya15/python313-uu] An image does not exist locally with the tag: suniya15/python313-uu
+
+C:\Users\suniy\Documents\Custon Office Templates docker run python313-uu hello
+
+C:\Users\sumiy\Documents\Custon Office Templates
+
+sunday
